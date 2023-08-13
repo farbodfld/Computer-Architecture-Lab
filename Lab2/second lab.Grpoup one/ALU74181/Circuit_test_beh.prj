@@ -1,0 +1,8 @@
+verilog work "Summodule.v"
+verilog work "Emodule.v"
+verilog work "Dmodule.v"
+verilog work "CLAmodule.v"
+verilog work "TopLevel74181.v"
+verilog work "Circuit74181.v"
+verilog work "Circuit_test.v"
+verilog work "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

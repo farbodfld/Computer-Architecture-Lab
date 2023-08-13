@@ -1,0 +1,5 @@
+verilog work "FullAdder.v"
+verilog work "BCDadder.v"
+verilog work "Three_Digit_BCD.v"
+verilog work "Three_Digit_BCD_tb.v"
+verilog work "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

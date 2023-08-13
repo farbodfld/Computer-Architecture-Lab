@@ -1,0 +1,5 @@
+set -tmpdir "E:/Xilinx project/experiment 02/BCDAdder_Structural/xst/projnav.tmp"
+set -xsthdpdir "E:/Xilinx project/experiment 02/BCDAdder_Structural/xst"
+elaborate
+-ifn FullAdder.prj
+-ifmt mixed

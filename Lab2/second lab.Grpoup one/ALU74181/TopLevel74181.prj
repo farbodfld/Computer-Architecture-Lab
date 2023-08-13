@@ -1,0 +1,5 @@
+verilog work "Summodule.v"
+verilog work "Emodule.v"
+verilog work "Dmodule.v"
+verilog work "CLAmodule.v"
+verilog work "TopLevel74181.v"

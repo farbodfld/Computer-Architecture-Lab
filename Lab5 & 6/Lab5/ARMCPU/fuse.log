@@ -1,0 +1,52 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/parsa/ISEProjects/ARMCPU/top_tb_isim_beh.exe" -prj "/home/parsa/ISEProjects/ARMCPU/top_tb_beh.prj" "work.top_tb" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/flopenr.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/regfile.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/mux2.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/flopr.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/extend.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/decoder.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/condlogic.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/alu.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/adder.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/datapath.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/controller.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/imem.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/dmem.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/cpu.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/top.v" into library work
+Analyzing Verilog file "/home/parsa/ISEProjects/ARMCPU/top_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83376 KB
+Fuse CPU Usage: 1200 ms
+Compiling module decoder
+Compiling module flopenr(WIDTH=2)
+Compiling module condcheck
+Compiling module condlogic
+Compiling module controller
+Compiling module mux2
+Compiling module floper
+Compiling module adder
+Compiling module mux2(WIDTH=3)
+Compiling module regfile
+Compiling module extend
+Compiling module alu
+Compiling module datapath
+Compiling module cpu
+Compiling module imem
+Compiling module dmem
+Compiling module top
+Compiling module top_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 19 Verilog Units
+Built simulation executable /home/parsa/ISEProjects/ARMCPU/top_tb_isim_beh.exe
+Fuse Memory Usage: 643672 KB
+Fuse CPU Usage: 1240 ms
+GCC CPU Usage: 150 ms

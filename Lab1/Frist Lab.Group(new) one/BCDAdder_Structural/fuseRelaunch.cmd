@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Xilinx project/experiment 02/BCDAdder_Structural/Three_Digit_BCD_tb_isim_beh.exe" -prj "E:/Xilinx project/experiment 02/BCDAdder_Structural/Three_Digit_BCD_tb_beh.prj" "work.Three_Digit_BCD_tb" "work.glbl" 

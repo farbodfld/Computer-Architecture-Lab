@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/ASUS/Desktop/RAM/ROM_mod.xst" -ofn "C:/Users/ASUS/Desktop/RAM/ROM_mod.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS/Desktop/RAM/ROM_mod.xst" -ofn "C:/Users/ASUS/Desktop/RAM/ROM_mod.syr" 
+xst -intstyle ise -ifn "C:/Users/ASUS/Desktop/RAM/ROM_mod.xst" -ofn "C:/Users/ASUS/Desktop/RAM/ROM_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 ROM_mod.ngc ROM_mod.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o ROM_mod_map.ncd ROM_mod.ngd ROM_mod.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_mod_map.ncd ROM_mod.ncd ROM_mod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_mod.twx ROM_mod.ncd -o ROM_mod.twr ROM_mod.pcf 
+xst -intstyle ise -ifn "C:/Users/ASUS/Desktop/RAM/ROM_mod.xst" -ofn "C:/Users/ASUS/Desktop/RAM/ROM_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 ROM_mod.ngc ROM_mod.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o ROM_mod_map.ncd ROM_mod.ngd ROM_mod.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_mod_map.ncd ROM_mod.ncd ROM_mod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_mod.twx ROM_mod.ncd -o ROM_mod.twr ROM_mod.pcf 

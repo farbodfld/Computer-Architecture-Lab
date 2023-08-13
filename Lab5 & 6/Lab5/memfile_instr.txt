@@ -1,0 +1,7 @@
+li r1,1
+li r2,2
+sal r1,2
+add r1,r2
+swap r1,r2
+mov r1,r2
+rol r1,1

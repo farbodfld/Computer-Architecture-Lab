@@ -1,0 +1,5 @@
+set -tmpdir "E:/Xilinx project/fourth lap.Group one/RamANDRom/xst/projnav.tmp"
+set -xsthdpdir "E:/Xilinx project/fourth lap.Group one/RamANDRom/xst"
+elaborate
+-ifn Ram_256.prj
+-ifmt mixed

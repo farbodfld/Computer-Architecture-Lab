@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/Xilinx project/fourth lap.Group one/Lab 4- Group 1/PART 4/BLOCK RAM/ROM_test_isim_beh.exe" -prj "E:/Xilinx project/fourth lap.Group one/Lab 4- Group 1/PART 4/BLOCK RAM/ROM_test_beh.prj" "work.ROM_test" "work.glbl" 

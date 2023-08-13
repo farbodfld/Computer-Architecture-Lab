@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Xilinx project/experiment 03/ALU74181/Circuit74181.xst" -ofn "E:/Xilinx project/experiment 03/ALU74181/Circuit74181.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "Circuit74181.ngc" Circuit74181.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Circuit74181_map.ncd Circuit74181.ngd Circuit74181.pcf 
+par -w -intstyle ise -ol high -t 1 Circuit74181_map.ncd Circuit74181.ncd Circuit74181.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Circuit74181.twx Circuit74181.ncd -o Circuit74181.twr Circuit74181.pcf 

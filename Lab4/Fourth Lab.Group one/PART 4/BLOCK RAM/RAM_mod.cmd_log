@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/ASUS/Desktop/RAM/RAM_mod.xst" -ofn "C:/Users/ASUS/Desktop/RAM/RAM_mod.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 RAM_mod.ngc RAM_mod.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o RAM_mod_map.ncd RAM_mod.ngd RAM_mod.pcf 
+par -w -intstyle ise -ol high -t 1 RAM_mod_map.ncd RAM_mod.ncd RAM_mod.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RAM_mod.twx RAM_mod.ncd -o RAM_mod.twr RAM_mod.pcf 

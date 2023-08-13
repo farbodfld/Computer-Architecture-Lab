@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Xilinx project/Fourth Lab.Group one/RamANDRom(PART 1,2,3)/ROM_256_to_8.xst" -ofn "E:/Xilinx project/Fourth Lab.Group one/RamANDRom(PART 1,2,3)/ROM_256_to_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "ROM_256_to_8.ngc" ROM_256_to_8.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o ROM_256_to_8_map.ncd ROM_256_to_8.ngd ROM_256_to_8.pcf 
+par -w -intstyle ise -ol high -t 1 ROM_256_to_8_map.ncd ROM_256_to_8.ncd ROM_256_to_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ROM_256_to_8.twx ROM_256_to_8.ncd -o ROM_256_to_8.twr ROM_256_to_8.pcf 

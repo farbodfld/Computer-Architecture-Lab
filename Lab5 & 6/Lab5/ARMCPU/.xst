@@ -1,0 +1,5 @@
+set -tmpdir "/home/parsa/ISEProjects/ARMCPU/xst/projnav.tmp"
+set -xsthdpdir "/home/parsa/ISEProjects/ARMCPU/xst"
+elaborate
+-ifn .prj
+-ifmt mixed

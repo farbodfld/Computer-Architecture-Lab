@@ -1,0 +1,47 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/Xilinx project/experiment 03/ALU74181/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to E:/Xilinx project/experiment 03/ALU74181/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Summodule.v" in library work
+Compiling verilog file "Emodule.v" in library work
+Module <Summodule> compiled
+Compiling verilog file "Dmodule.v" in library work
+Module <Emodule> compiled
+Compiling verilog file "CLAmodule.v" in library work
+Module <Dmodule> compiled
+Compiling verilog file "TopLevel74181.v" in library work
+Module <CLAmodule> compiled
+Compiling verilog file "Circuit74181.v" in library work
+Module <TopLevel74181> compiled
+Module <Circuit74181> compiled
+No errors in compilation
+Analysis of file <"Circuit74181.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> 
+
+Total memory usage is 4476620 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

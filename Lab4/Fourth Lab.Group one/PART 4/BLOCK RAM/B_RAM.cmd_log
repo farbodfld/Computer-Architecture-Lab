@@ -1,0 +1,2 @@
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s100e-vq100-5 B_RAM.ngc B_RAM.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o B_RAM_map.ncd B_RAM.ngd B_RAM.pcf 

@@ -1,0 +1,17 @@
+MO adder NULL adder.v vlg54/adder.bin 1620818783
+MO dmem NULL dmem.v vlg5F/dmem.bin 1620818783
+MO mux2 NULL mux2.v vlg30/mux2.bin 1620818783
+MO regfile NULL regfile.v vlg72/regfile.bin 1620818783
+MO condcheck NULL condlogic.v vlg4A/condcheck.bin 1620818783
+MO condlogic NULL condlogic.v vlg76/condlogic.bin 1620818783
+MO datapath NULL datapath.v vlg27/datapath.bin 1620818783
+MO imem NULL imem.v vlg50/imem.bin 1620818783
+MO cpu NULL cpu.v vlg50/cpu.bin 1620818783
+MO top NULL top.v vlg6F/top.bin 1620818783
+MO extend NULL extend.v vlg6C/extend.bin 1620818783
+MO foo NULL foo.v vlg10/foo.bin 1620746513
+MO decoder NULL decoder.v vlg02/decoder.bin 1620818783
+MO controller NULL controller.v vlg54/controller.bin 1620818783
+MO floper NULL flopr.v vlg58/floper.bin 1620818783
+MO alu NULL alu.v vlg0A/alu.bin 1620818783
+MO flopenr NULL flopenr.v vlg16/flopenr.bin 1620818783

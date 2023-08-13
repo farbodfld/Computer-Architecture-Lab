@@ -1,0 +1,5 @@
+set -tmpdir "E:/Xilinx project/experiment 03/ALU74181/xst/projnav.tmp"
+set -xsthdpdir "E:/Xilinx project/experiment 03/ALU74181/xst"
+elaborate
+-ifn Dmodule.prj
+-ifmt mixed

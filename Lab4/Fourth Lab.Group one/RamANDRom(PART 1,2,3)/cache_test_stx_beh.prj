@@ -1,0 +1,3 @@
+verilog isim_temp "cache.v"
+verilog isim_temp "cache_tb2.v"
+verilog isim_temp "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

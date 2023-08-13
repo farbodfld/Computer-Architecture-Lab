@@ -1,0 +1,4 @@
+li r0,#3
+li r1, #5
+sal r0, #1
+add r0, r1

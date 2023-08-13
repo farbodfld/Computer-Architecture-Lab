@@ -1,0 +1,8 @@
+verilog isim_temp "Summodule.v"
+verilog isim_temp "Emodule.v"
+verilog isim_temp "Dmodule.v"
+verilog isim_temp "CLAmodule.v"
+verilog isim_temp "TopLevel74181.v"
+verilog isim_temp "Circuit74181.v"
+verilog isim_temp "Circuit_test.v"
+verilog isim_temp "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

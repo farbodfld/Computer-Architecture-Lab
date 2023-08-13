@@ -1,0 +1,3 @@
+verilog work "FullAdder.v"
+verilog work "BCDadder.v"
+verilog work "Three_Digit_BCD.v"
